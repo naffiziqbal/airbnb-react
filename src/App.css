@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  overflow-x: hidden;
+}
 .container{
   margin: 0 auto;
   max-width: 1200px;
@@ -37,4 +40,24 @@ text-align: center;
 }
 .hero-text > p{
   font-size: 20px;
+}
+.card{
+  margin: 5rem 20px;
+
+
+}
+
+.card img{
+  border-radius: 20px;
+  width: 500px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.cards{
+  overflow-y: scroll;
+  width: 100%;
+  display: flex;
 }
