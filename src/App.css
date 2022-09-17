@@ -10,9 +10,13 @@ body{
 .container{
   margin: 0 auto;
   max-width: 1200px;
+  padding: 2rem;
+
 }
 
-header{
+.hero-img img{
+  width: 100%;
+
 }
 .nav{
   padding: 20px 36px;
@@ -57,7 +61,8 @@ text-align: center;
 }
 
 .cards{
-  overflow-y: scroll;
+  overflow-x: scroll;
+  overflow-y: hidden;
   width: 100%;
   display: flex;
 }
