@@ -10,12 +10,16 @@ export default function NavBar() {
         <img className="nav--logo" src="./images/airbnb.png" />
       </nav>
       <section className="hero-section">
-        <div className='hero-img'>
+        <div className="hero-img">
           <img src="./images/Screenshot_72.png" alt="" />
         </div>
-        <div className= "hero-text">
+        <div className="hero-text">
           <h3>Online Experience</h3>
-          <p> Join Uniqe and Interactive activities led by one of a kind hots</p><p>-- all without leaving home</p>
+          <p>
+            {" "}
+            Join Uniqe and Interactive activities led by one of a kind hots
+          </p>
+          <p>-- all without leaving home</p>
         </div>
       </section>
     </header>

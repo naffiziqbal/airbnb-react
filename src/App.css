@@ -1,57 +1,51 @@
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   overflow-x: hidden;
 }
-.container{
+.container {
   margin: 0 auto;
   max-width: 1200px;
   padding: 2rem;
-
 }
 
-.hero-img img{
+.hero-img img {
   width: 100%;
-
 }
-.nav{
+.nav {
   padding: 20px 36px;
   box-shadow: 10px 10px 10px #eee;
   display: flex;
   height: 70px;
-
 }
-.nav--logo{
+.nav--logo {
   max-width: 100px;
 }
 
-.hero-section{
-text-align: center;
+.hero-section {
+  text-align: center;
 
   padding-top: 3rem;
 }
 
-.hero-section > .hero-text{
+.hero-section > .hero-text {
   text-align: left;
 }
-.hero-text > h3{
+.hero-text > h3 {
   font-size: 40px;
-  margin:  2rem 0;
+  margin: 2rem 0;
 }
-.hero-text > p{
+.hero-text > p {
   font-size: 20px;
 }
-.card{
+.card {
   margin: 5rem 20px;
-
-
 }
 
-.card img{
+.card img {
   border-radius: 20px;
   width: 500px;
   -webkit-border-radius: 20px;
@@ -60,7 +54,7 @@ text-align: center;
   -o-border-radius: 20px;
 }
 
-.cards{
+.cards {
   overflow-x: scroll;
   overflow-y: hidden;
   width: 100%;
