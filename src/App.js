@@ -12,6 +12,7 @@ function App() {
     name={item.title}
     price={item.price}
     rating={item.stats.rating}
+    location = {item.location}
   />
   )
  })

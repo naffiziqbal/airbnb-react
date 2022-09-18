@@ -10,7 +10,7 @@ export default function Card(props) {
           <i class="fa-regular fa-star"></i>
         </span>
         <span> {props.rating}</span>
-        <span>{props.country}</span>
+        <span>{ props.location}</span>
       </div>
       <h2>{props.name}</h2>
       <h3>
